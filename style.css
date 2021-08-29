@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: rgb(216, 216, 216);
+}
+
+.container-principal{
+    width: 200vh;
+    height: 200vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lado-esquerdo{
+    border: 1px solid #FFFFFF;
+    width: 35vw;
+    height: 140vh;
+    float: left; 
+    color: #222222;
+    background-color: #FFFFFF ;
+    padding-bottom: 6vh;
+    font-family: 'Roboto'; 
+}
+
+.nome-foto{
+    display: flex; 
+}
+#foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 9vh;
+    margin-left: 3vw; 
+}
+.nome{
+    margin-left: 29px;
+    margin-top: 12vh;
+    line-height: 6px;
+    text-align: center;
+}
+section{
+    margin-left: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+article{
+    margin-top: 8vh;
+}
+.perfil{
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    width: 30vw;
+    font-weight: bold;
+}
+li{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold ;
+}
+.presente{
+    word-break: break-all;
+    width: 12vw;
+}
+dd{
+    font-weight: bold;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(194, 31, 153);
+}
+
+footer{
+    background-color: #19304F;
+    color: #FFFFFF;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    border-radius: 2vh;
+    top: 1vh;
+}
+
+
+
+.lado-direito{
+    width: 16vw;
+    height: 140vh;
+    padding-bottom: 6vh;
+    border: solid gray 1px;
+    float: right;
+    background-color: #19304F;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    
+}
+.contatos{
+    position: relative;
+    margin-top: 20vh;
+    width: 8vw;
+    padding-left: 2vw;
+    line-height: 3vh;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+.icones{
+    width: 30px;
+    height: 30px;
+    margin-left: 2vw;
+    border: solid #FFFFFF 1PX;
+
+    
+}
+.conhecimento{
+    padding-left: 2vw;
+    font-weight: bold;
+}
+.linha::after{
+       content: "";
+       width: 200px;
+       height: 2px;
+       background: currentColor;
+       display: block;
+       
+}
+
+
+
+
+@media (max-width: 732px){
+    .container-principal{
+        width: 100%;
+        height: 90%;
+    }
+    .lado-esquerdo{
+        width: 68%;
+        height: 130vh;
+        float: left;
+        
+        
+    }
+    .lado-direito{
+        width: 30%;
+        height: 130vh;
+        float: right;
+
+        
+        
+    }
+    .email{
+       word-break: break-all;
+    }
+  
+    #foto{
+        width: 50px;
+        height: 50px;
+        margin-top: 18px;
+
+   }
+   .nome{
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+   }
+   h2{
+     font-size: 20px;
+   }
+   .perfil{
+       font-size: 14px;
+       width: 100%;
+   }
+   li, a{
+    
+    font-size: 14px;
+    
+   }
+   .contatos{
+       font-size: 12px;
+       width: 90%;
+       margin-top: 100px;
+
+   }
+   .conhecimento{
+       font-size: 10px;
+   }
+   .conhecimentos{
+       font-size: 15px;
+   }
+   .linha::after{
+       width: 100px;
+
+   }
+   .icones{
+       width: 17px;
+       height: 17px;
+   }
+   
+ 
+}
+@media (max-width: 700px){
+    .nome{
+        font-size: 8px;
+    }
+    .lado-esquerdo{
+        height: 57rem;
+
+    }
+    .lado-direito{
+        height: 57rem;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
